@@ -24,18 +24,22 @@ class Person2 {
         // name = n的话就可以获取到正确的值
         // 当局部变量和成员变量重名时，或局部变量中有，则从局部变量中找
         /*this：看上去是用于区分局部变量和成员变量同名情况
-        * this 代表的是什么，为什么能解决这个问题？
-        * this 代表本类的对象，到底代表哪一个？
-        * */
+         * this 代表的是什么，为什么能解决这个问题？
+         * this 代表本类的对象，到底代表哪一个？
+         * this 代表它所在函数所属对象的引用
+         * 哪个对象在调用this所在的函数，this就代表哪个对象
+         * */
+        // Person2 p = new Person2("lisi"); 这时this就代表p，但不能直接写成p
         this.name = name;
     }
 
-    Person2(String n, int a) {
-        name = n;
-        age = a;
+    Person2(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
     public void speak() {
+        // 这里的name 其实是this.name的简写
         System.out.println("name=" + name + ", age=" + age);
     }
 }
