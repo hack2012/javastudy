@@ -15,7 +15,7 @@ public class ClassStudy11 {
         // ArrayTool tool = new ArrayTool();
         // int min = tool.getMin(arr);
         int min = ArrayTool.getMin(arr);
-        System.out.println("min=" + min);
+        System.out.println("min=" + min); 
     }
 
     public static int getMax(int[] arr) {
