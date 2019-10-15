@@ -30,6 +30,7 @@ public class ClassStudy14 {
     }
 }
 
+
 class Single {
     private int num;
 
@@ -43,7 +44,9 @@ class Single {
 
     private Single() {
     }
-
+    /*这个是先初始化对象，被称之为：饿汉式
+    * 特点：Single类一进内存就已经创建好了对象
+    * */
     private static Single s = new Single();
 
     public static Single getInstance() {
