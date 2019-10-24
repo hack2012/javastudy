@@ -16,3 +16,4 @@
 - 子父类中的构造函数 ClassStudy19
 - final关键字 ClassStudy20
 - 抽象类 ClassStudy21
+- 设计员工类和经理类 ClassStudy22
