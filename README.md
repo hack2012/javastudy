@@ -17,3 +17,5 @@
 - final关键字 ClassStudy20
 - 抽象类 ClassStudy21
 - 设计员工类和经理类 ClassStudy22
+- 模版设计模式 抽象应用
+- 接口 ClassStudy24
