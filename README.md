@@ -19,3 +19,4 @@
 - 设计员工类和经理类 ClassStudy22
 - 模版设计模式 抽象应用
 - 接口 ClassStudy24
+- 接口的特点 ClassStudy25
