@@ -48,3 +48,26 @@ class Test implements Inter, InterA {
     public void method() {
     }
 }
+
+interface A {
+    void methodA();
+}
+
+interface B /*extends A*/ {
+    void methodB();
+}
+
+interface C extends A, B {
+    void methodC();
+}
+
+class D implements C {
+    public void methodA() {
+    }
+
+    public void methodB() {
+    }
+
+    public void methodC() {
+    }
+}
