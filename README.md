@@ -21,3 +21,4 @@
 - 接口 ClassStudy24
 - 接口的特点 ClassStudy25
 - 面向对象多态 ClassStudy26
+- 多态的应用 ClassStudy27
