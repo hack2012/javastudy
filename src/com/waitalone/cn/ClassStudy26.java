@@ -20,12 +20,12 @@ public class ClassStudy26 {
         // 类型提升。向上转型。
         Animal a = new Cat();
         a.eat();
-
         // 如果想调用猫的特有方法时，如何操作？
         // 强制性将父类的引用，转成子类类型，向下转型。
-        Cat c = (Cat)a;
+        Cat c = (Cat) a;
         c.catchMouse();
-
+        // 千万不要出现这样的操作，就是将父类对象转成子类类型。
+        // 我们能转换的是父类应用指向了自己的子类对象时，该应用可以被提升，也可以被强制转换。
     }
 
     /*public static void function(Cat c) {
@@ -38,6 +38,13 @@ public class ClassStudy26 {
 
     public static void function(Animal a) {
         a.eat();
+        if (a instanceof Cat) {
+            Cat c = (Cat) a;
+            c.catchMouse();
+        } else if (a instanceof Dog) {
+            Dog d = (Dog) a;
+            d.kanJia();
+        }
     }
 
 
