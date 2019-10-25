@@ -20,3 +20,4 @@
 - 模版设计模式 抽象应用
 - 接口 ClassStudy24
 - 接口的特点 ClassStudy25
+- 面向对象多态 ClassStudy26
