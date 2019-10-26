@@ -31,6 +31,7 @@ public class ClassStudy31 {
  * 在外部其它类中，如何直接访问static内部类的非静态成员呢？ new Outer.Inner().function();
  * 在外部其它类中，如何直接访问static内部类的静态成员呢？ Outer.Inner.function();
  * 注意：当内部类中定义了静态成员，该内部类必须是静态的。
+ *      当外部类中的静态方法访问内部类时，内部类也必须是static的
  * */
 
 class Outer {
@@ -49,6 +50,14 @@ class Outer {
             // 这个打印3
             System.out.println("外部类的x：" + Outer.this.x);
         }
+    }
+    static class Inner2{
+        void show(){
+            System.out.println("inner2 show");
+        }
+    }
+    public static void method2(){
+        new Inner2().show();
     }
 
     void method() {

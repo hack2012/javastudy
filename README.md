@@ -26,3 +26,4 @@
 - 多态的应用 ClassStudy29
 - 多态的应用2 ClassStudy30
 - 内部类 ClassStudy31
+- 内部类2 ClassStudy32
