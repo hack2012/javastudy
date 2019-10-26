@@ -9,7 +9,6 @@ package com.waitalone.cn;
 public class ClassStudy32 {
     public static void main(String[] args) {
         new Outer2().method();
-        // 匿名内部类
     }
 }
 
