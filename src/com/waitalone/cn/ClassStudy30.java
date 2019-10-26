@@ -12,9 +12,9 @@ public class ClassStudy30 {
         // UserInfoByJDBC ui = new UserInfoByJDBC();
         // ui.add(user);
         // ui.delete(user);
-        UserInfoDao ui = new UserInfoByJDBC();
+        /*UserInfoDao ui = new UserInfoByJDBC();
         ui.add(user);
-        ui.delete(user);
+        ui.delete(user);*/
     }
 }
 
@@ -26,6 +26,7 @@ public class ClassStudy30 {
  * 3、关闭数据库连接
  * */
 
+/*
 interface UserInfoDao {
     public void add(User user);
 
@@ -35,28 +36,36 @@ interface UserInfoDao {
 
 class UserInfoByJDBC implements UserInfoDao {
     public void add(User user) {
-        /*1、连接数据库
+        */
+/*1、连接数据库
          * 2、使用sql添加语句添加数据
-         * 3、关闭连接*/
+         * 3、关闭连接*//*
+
     }
 
     public void delete(User user) {
-        /*1、连接数据库
+        */
+/*1、连接数据库
          * 2、使用sql添加语句删除数据
-         * 3、关闭连接*/
+         * 3、关闭连接*//*
+
     }
 }
 
 class UserInfoByHibenate implements UserInfoDao {
     public void add(User user) {
-        /*1、连接数据库
+        */
+/*1、连接数据库
          * 2、使用sql添加语句添加数据
-         * 3、关闭连接*/
+         * 3、关闭连接*//*
+
     }
 
     public void delete(User user) {
-        /*1、连接数据库
+        */
+/*1、连接数据库
          * 2、使用sql添加语句删除数据
-         * 3、关闭连接*/
+         * 3、关闭连接*//*
+
     }
-}
+}*/

@@ -25,3 +25,4 @@
 - 多态的特点 ClassStudy28
 - 多态的应用 ClassStudy29
 - 多态的应用2 ClassStudy30
+- 内部类 ClassStudy31
