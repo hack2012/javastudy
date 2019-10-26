@@ -23,3 +23,4 @@
 - 面向对象多态 ClassStudy26
 - 多态的应用 ClassStudy27
 - 多态的特点 ClassStudy28
+- 多态的应用 ClassStudy29
