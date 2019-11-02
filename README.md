@@ -36,3 +36,4 @@
 - 对多异常的处理 ExceptionStudy03.java
 - 自定义异常 ExceptionStudy04.java
 - throw和throws的区别 ExceptionStudy05.java
+- 异常的应用 ExceptionStudy06.java
