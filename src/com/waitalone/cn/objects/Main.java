@@ -1,4 +1,4 @@
-package com.waitalone.cn;
+package com.waitalone.cn.objects;
 
 public class Main {
 
