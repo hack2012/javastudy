@@ -28,3 +28,4 @@
 - 内部类 ClassStudy31
 - 内部类中的局部变量 ClassStudy32
 - 匿名内部类 ClassStudy33
+- 匿名内部类测试 ClassStudy34
