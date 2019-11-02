@@ -7,19 +7,14 @@ package com.waitalone.cn.exception;
  * @Blog: https://www.waitalone.cn
  */
 public class ExceptionStudy02 {
-    public static void main(String[] args) { //throws Exception
+    public static void main(String[] args) throws Exception {
         ExceptionDemo2 d = new ExceptionDemo2();
-        try {
-            int x = d.div(4, 0);
-            System.out.println("x=" + x);
-        } catch (Exception e) {
-            System.out.println(e.toString());
-        }
+        int x = d.div(4, 1);
+        System.out.println("x=" + x);
         System.out.println("ove");
     }
 }
 
-/**/
 
 class ExceptionDemo2 {
     int div(int a, int b) throws Exception {

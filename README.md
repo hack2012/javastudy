@@ -31,5 +31,6 @@
 - 匿名内部类测试 ClassStudy34
 
 ### 2、Java异常机制
-- java的异常体系
-- 异常的基本处理方式：抛、捕获
+- java的异常体系 ExceptionStudy01.java
+- 异常的基本处理方式：抛、捕获 ExceptionStudy02.java
+- 对多异常的处理 ExceptionStudy03.java
