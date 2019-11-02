@@ -39,6 +39,12 @@ public class ExceptionStudy04 {
  * 自定义异常，必须是自定义类继承Exception，原因如下：
  * 异常体系有一个特点：因为异常类和异常都都被抛出，他们都具备可抛性，这个可抛性是Throwable这个体系中的独有特点
  * 只有这个体系中的类和对象才可以被throws和throw操作
+ *
+ * throws和throw的区别
+ * throws使用在函数上
+ * throw使用在函数内
+ * throws后面跟的是异常类，可以跟多个，用逗号隔开。
+ * throw后跟的是异常对象
  * */
 
 class FuShuException extends Exception {

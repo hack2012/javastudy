@@ -35,3 +35,4 @@
 - 异常的基本处理方式：抛、捕获 ExceptionStudy02.java
 - 对多异常的处理 ExceptionStudy03.java
 - 自定义异常 ExceptionStudy04.java
+- throw和throws的区别 ExceptionStudy05.java
